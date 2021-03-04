@@ -2,6 +2,13 @@
 Repo for EUI Graduate Conference Proposal
 
 ### Case
+...
+
+### Hypothesis
+A convergence in the different types of arguments involving "bureaucracy" appears from the years of the first Wilson gov. (1964-1970) onwards. This entails:    - 
+- [ ] the integration of for example bureaucracy-as-totalitarianism and bureaucracy-as-inefficient into a master narrative structured by the notion of crisis
+- [ ] the spread of these arguments across the political spectrum (to be more specific: not only conservative actors)
+- [ ] the 
 
 ### Methods
 
@@ -13,6 +20,7 @@ Repo for EUI Graduate Conference Proposal
 - [ ] Word2Vec distribution of bureauc*, with party differentation
   - [ ] semantic shift per year (general)
   - [ ] semantic neighbourhood shift per year [code](https://gist.github.com/quadrismegistus/15cafbdd878a98b060ef910c843fcf5a)
+- [ ] Sentence Embeddings (USE) for classification.
 
 ### Approach
 1. Map frequencies of bureaucra* ngrams per party
