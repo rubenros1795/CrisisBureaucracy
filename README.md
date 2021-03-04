@@ -8,7 +8,7 @@ Repo for EUI Graduate Conference Proposal
 A convergence in the different types of arguments involving "bureaucracy" appears from the years of the first Wilson gov. (1964-1970) onwards. This entails:    - 
 - [ ] the integration of for example bureaucracy-as-totalitarianism and bureaucracy-as-inefficient into a master narrative structured by the notion of crisis
 - [ ] the spread of these arguments across the political spectrum (to be more specific: not only conservative actors)
-- [ ] the 
+- [ ] the association of these arguments with concrete examples that refer back to a state of general crisis, instead of the more volatile and rhetoric use of "bureaucracy" (perhaps measured by looking at share of adverbs/adjectives in context?)
 
 ### Methods
 
