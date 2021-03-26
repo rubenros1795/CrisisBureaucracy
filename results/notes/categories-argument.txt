@@ -1,0 +1,9 @@
+# Categories
+
+1. Neutral-descriptive: for arguments that do not use the term very conciously and do not 'mean a lot' by it
+2. Bureaucracy as inefficient/slow: words; lazy, red tape, rules, procedures, managerial, bogged, delay
+3. Bureaucracy as powerful/large: words; machine, overwhelming, power, force, burden, control, authority
+4. Bureaucracy as centralization: words; socialism, industry, planning, monopoly, state-ownership
+5. Bureaucracy as a threat to freedom: individual, community, local, freedom, liberty, private enterprise
+6. Bureaucracy as expensive: costs, resources, million, top-heavy
+7. Bureaucracy as anti-democratic: democracy, parliament, accountable, irresponsible
