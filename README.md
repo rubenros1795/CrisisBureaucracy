@@ -2,7 +2,7 @@
 Repo for EUI Graduate Conference Proposal
 
 ### Case
-...
+Bureaucratic arguments and the origins of the neoliberal turn in British political thought between 1957 and 1985. 
 
 ### Hypothesis
 A convergence in the different types of arguments involving "bureaucracy" appears from the years of the first Wilson gov. (1964-1970) onwards. This entails:    - 
