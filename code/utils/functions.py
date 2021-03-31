@@ -62,7 +62,7 @@ class utils():
         list_txt = [" ".join([w for w in t.split(' ') if w not in set(stopwords)]) for t in list_txt]
         return list_txt 
 
-    def windowizer(data,words=[],window=5):
+    def windowizer(data,words=[],window=5,id_column=""):
         result = []
         for c,text in enumerate(data['text']):
             text = str(text).split(' ')
@@ -74,7 +74,7 @@ class utils():
                     left = 0
                 if right > len(text):
                     right = len(text)
-                result.append([f"{data['id'][c]}-{c_}"," ".join(text[left:right])])
+                result.append([f"{data[id_column][c]}-{c_}"," ".join(text[left:right])])
         return pd.DataFrame(result,columns=['id','window'])
 
 class data_loader():
