@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "6b80ddd9f2521bc1",
+    "type": "split",
+    "children": [
+      {
+        "id": "222a1f166ab4d3a2",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "notes/ideas/8.4.21-QuangoConvergence.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9e4365f5a78a34e7",
+    "type": "split",
+    "children": [
+      {
+        "id": "397ff794af6fbe62",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "45bfa4b0d4db66af",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "89cbbbceb24f2a80",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "506dc145db18faf1",
+    "type": "split",
+    "children": [
+      {
+        "id": "39ea44ef683ff22b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eca73e75002661f9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "notes/ideas/8.4.21-QuangoConvergence.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "222a1f166ab4d3a2",
+  "lastOpenFiles": [
+    "notes/ideas/Untitled.md",
+    "notes/analysis/observation-notes.md",
+    "notes/ideas/8.4.21-Butskellism.md",
+    "notes/ideas/7.4.21-DiscursiveFunctionOverload.md",
+    "notes/literature/Castellani-RiseManagerialBureaucracy.md",
+    "notes/literature/Cooper-BureaucraticTurnover-2020.md",
+    "notes/literature/Untitled.md",
+    "notes/literature/Callaghan-FabianSocialismDemocracyState-1989.md",
+    "notes/literature/Middleton-BrittanOnBritain-2011.md",
+    "notes/literature/Blick-WilsonLabourMachinery-2006.md"
+  ]
+}

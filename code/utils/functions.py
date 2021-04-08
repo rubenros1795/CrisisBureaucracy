@@ -216,6 +216,26 @@ class frequency():
 
         d = pd.DataFrame(d,columns=['w','p1','p2','p12','pmi_reg','pmi_2','pmi_3','npmi'])
         return d
+    
+    def get_pmi_score(word1,word2,start_year,end_year,text_column):
+        data_path = "/media/ruben/Elements/PhD/data/hansard/lemmatized_pm"
+        p1 = 0
+        p2 = 0
+        p12 = 0
+        for year in range(int(start_year),int(end_year)+1):
+            p1 += int(subprocess.check_output(f'egrep -iE "{word1}"  {data_path}/*{year}* | wc -l',shell=True).decode('utf-8'))
+            p2 += int(subprocess.check_output(f'egrep -iE "{word2}"  {data_path}/*{year}* | wc -l',shell=True).decode('utf-8'))
+            p12 += int(subprocess.check_output(f'egrep -iE "{word1}.*{word2}|{word2}.*{word1}"  {data_path}/*{year}* | wc -l',shell=True).decode('utf-8'))
+        print(f"p1: {p1}, p2: {p2}, p12: {p12}")
+        if p12 > 0:
+            try:
+                pmi_reg = math.log(((p12) / (p1 * p2)), 2)
+                pmi_2 = math.log(((p12 ** 2) / (p1 * p2)), 2)
+                pmi_3 = math.log(((p12 ** 3) / (p1 * p2)), 2)
+                npmi = pmi_reg / - math.log(p12)
+                return npmi
+            except:
+                return "na"
 
 class cluster():
     def generate_matrix(list_words,model_name):
@@ -330,9 +350,9 @@ class DenseTfIdf(TfidfVectorizer):
 
 class tfidf():
 
-    def get_docterms(data,text_column):
+    def get_docterms(data,text_column,**kwargs):
         texts = list(data[text_column])
-        return DenseTfIdf(sublinear_tf=True, max_df=0.5,min_df=2,encoding='ascii',ngram_range=(1, 2),lowercase=True,max_features=1000,stop_words='english').fit_transform(texts)
+        return DenseTfIdf(sublinear_tf=True, max_df=0.5,min_df=2,encoding='ascii',lowercase=True,stop_words='english',**kwargs).fit_transform(texts)
 
     def get_topterms(tfidf_object,docterms,data,category_column):
         docterms = pd.DataFrame(docterms.toarray(), columns=tfidf_object.get_feature_names(),index=data.index)

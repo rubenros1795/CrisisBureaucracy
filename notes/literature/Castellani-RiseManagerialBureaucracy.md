@@ -1,0 +1,36 @@
+#casebureaucracy 
+
+- definition of Tomlin Commission in 1931: "Servants of the crown other than holders of political and judicial offices who are employed in a civil capacity and whose remuneration is paid wholly out of moneys devoted by parliament"
+- change in term "civil servant", meant first "non-military" in East India Company
+- only in late 19th century emergence of "civil service"
+- Expenditure Committee Commons:
+	- The 1960s saw a rising mood of national decline, in which Britain was perceived as underperforming as a world power. In this atmosphere, the British political system came under pronounced domestic scrutiny. Many established institutions were criticised, among them Parliament. A variety of reform proposals were canvassed, including some to the Commons committee system. Partly in response to such demands, six subject specific select committees were established in the 1966-70 Parliament under Richard Crossman, then Leader of the House. Crossman saw through the establishment of select committees on Agriculture (1966), Science and Technology (1966), Education and Science (1967), Race Relations and Immigration (1968), Overseas Aid and Development (1969), and Scottish Affairs (1969). Not all these committees continued through into the next parliamentary session however. Following this, an Expenditure Committee was set up in 1971, with six sub-committees. Both of these developments were heavily criticised for lacking coherence and structure – this criticism in the following years after implementation provided the impetus for proposals for the development of a new committee system. (found at https://consoc.org.uk/wp-content/uploads/2017/08/select-committees-pdf-final.pdf)
+- Superannuation baseis for scope of civil service
+- mid 20th-century conceptual of bureaucracy was Weberian, Warren Fisher: "bureaucracy as fourth service of the Crown"
+- 1968: Civil Service Department (CSD) --> gathered statistics
+- changing definitions of civil servant in '73 '76 '94
+- Ibbs Report, Next steps projects
+- Deep history
+	- long period to distinguish monarchic houshold from state affairs
+	- Treasury at the core
+	- Privy Council turned into cabinet in 18th century
+	- "Orders in Council", Royal Prerogatives, Privy Council
+	- civil service is prerogative of the crown, reform follows "Orders in Council"
+	- Henry VII, established "Whitehall"
+- "periodical interest in Parliament in cutting back expenditure"
+- Trevelyion report 1848: selection based on expertise, generalists
+- Fulton Report 1968: private business involvement, fusion of generalists/specialists
+- successive governments lost interest in reform due to Oil Crisis
+- several commissions before Fulton
+- Civil Service Department practically meant a disempowerment of the Treasury
+- Efficiency-management through "Management by Objective" in 1970s
+- Heath, modernization
+	- critiqued as "civil srevants prime Minister"
+	- watned a centralized French-style civil service
+	- 1970 White Paper, "socialist Fabian approach", more efficiency and "hiving off"
+- the CPRS, think tank to serve cabinets
+- after oil crisis, lost interest in reform
+- "unavoidable reforms", "notion of overload government"
+- Wider Issues REview Team
+- "good employer model" did not work anymore
+- 

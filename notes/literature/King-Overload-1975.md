@@ -1,0 +1,25 @@
+- "Why Britain has become so much harder to govern"
+- governments survive only one term, problem to be reckoned with
+- indicators of overload:
+	- failed reform of local government
+	- ideals of efficiency and democracy that do not work
+	- failures of income policy (unions)
+- "a long way from the confident Keynesianismof the 1944 White Paper"
+- the fit between manifesto's and realization
+- rising waters: "none of us will know when, or whether, the magician will come home"
+- two propositions:
+	- range of matters for which governments hold themselves responsible has increased. 
+		- government as **unlimited insurance company
+		- enlargement public sector lays burden on government
+		- **when government becomes big, politics becomes big too
+	- failing policies
+		- talks about "solutions", while everybody fails
+		- the posture of modern statesmen is bewilderment
+		- bewilderment follows: 1) technology 2) scarcity 3) dependency relationships 4) lack of intelligence (generalists do not comprehend)
+- consequences of overload:
+	- crisis of the regime, declining trust
+	- short-termism
+	- change in governmental and public perception of politics
+- solutions
+	- **decrease reach or increase grasp
+	- remove some functions from purview of politically elected
