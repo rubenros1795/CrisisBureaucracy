@@ -1,0 +1,11 @@
+- "necessary to improve the instruments of policy to **keep pace** with changes in our society"
+- "to carry through modernisation"
+- critical comments on Trevelyan "all-rounders"
+- Acknowledgement that "government accepted a vast permanenc increase in responsibility"
+- Proposals
+	- "try to stabilize public expenditure so that it is not constantly subject to stop-go in the light of current crises. This will help long-term efficiency" **still framed in terms of efficiecnty, but basic acknowlegdment of the overload-thesis**
+- Critique
+	- government is **isolated**
+	- government is **composed of allrounders**
+	- government is a **closed hierarchy**
+	- government is **unaccountable**

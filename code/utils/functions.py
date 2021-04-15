@@ -59,12 +59,13 @@ class utils():
         if tokenize == True:
             list_txt = [str(v).split(' ') for v in list_txt]
         list_txt = [re.sub(' +', ' ', x) for x in list_txt]
-        list_txt = [" ".join([w for w in t.split(' ') if w not in set(stopwords)]) for t in list_txt]
+        #list_txt = [" ".join([w for w in t if w not in set(stopwords)]) for t in list_txt]
         return list_txt 
 
-    def windowizer(data,words=[],window=5,id_column=""):
+    def windowizer(data,words=[],window=5,id_column="",text_column=""):
         result = []
-        for c,text in enumerate(data['text']):
+        data = data.reset_index(drop=True)
+        for c,text in enumerate(data[text_column]):
             text = str(text).split(' ')
             indices = [c for c,i in enumerate(text) if i in set(words)]
             for c_,ind_ in enumerate(indices):
@@ -98,7 +99,7 @@ class data_loader():
             data = data.append(tdf)
         return data.reset_index(drop=True)
 
-    def subset(data_version="lemmatized_pm",start_date="",end_date="",words=[],exact_match=True,preprocess=True):
+    def subset(data_version="lemmatized_pm",start_date="",end_date="",words=[]):
         if len(str(start_date)) == 10:
             periods = utils.day_generator(start_date,end_date)
         if len(str(start_date)) == 7:
@@ -109,41 +110,38 @@ class data_loader():
         files_path = os.path.join(base_path,data_version) + "/*"
         test_file = pd.read_csv(gb(files_path)[0],sep='\t')
 
-        data = pd.DataFrame()
-        for p in periods:
-            try:
-                grp = "egrep -iE '" + "|".join(words) + "' " + files_path.replace('*',f'*{p}*')
-                print(grp)
-                output = subprocess.check_output(grp,shell=True).decode('utf-8')
-                output = [l.split('\t') for l in output.split('\n')]
-                # print(grp,len(output))
-                if len(output) > 0:
-                    output = pd.DataFrame(output)
-                    data = data.append(output)
-            except Exception as e:
-                print(e)
-                continue
+        if start_date == 1957 and end_date == 1985:
+            grp = "egrep -iE '" + "|".join(words) + "' " + files_path
+            output = subprocess.check_output(grp,shell=True).decode('utf-8')
+            output = [l.split('\t') for l in output.split('\n')]
+            data = pd.DataFrame(output)
+        else:
+            data = pd.DataFrame()
+            for p in periods:
+                try:
+                    grp = "egrep -iE '" + "|".join(words) + "' " + files_path.replace('*',f'*{p}*')
+                    output = subprocess.check_output(grp,shell=True).decode('utf-8')
+                    output = [l.split('\t') for l in output.split('\n')]
+                    # print(grp,len(output))
+                    if len(output) > 0:
+                        output = pd.DataFrame(output)
+                        data = data.append(output)
+                except Exception as e:
+                    print(e)
+                    continue
         if len(data) == 0:
             print("empty dataframe, check query")
             return
+
         data.columns = test_file.columns
-        data = data[data['speech_member_ref'] != "speech_member_ref"].reset_index(drop=True)
+        data = data.dropna().reset_index(drop=True)
         data = data.dropna()
 
-        for word in words:       
-
-            if exact_match == True:
-                data[f"{word}_hits"] = [dict(Counter(i.split(' ')))[word] if word in set(i.split(' ')) else 0 for i in data['text_lemmatized']]
-            if exact_match == False:
-                lc = []
-                for t in data['text_lemmatized']:
-                    len_ = len([w for w in t if w == word or word in w])
-                data[f"{word}_hits"] = lc
-        if preprocess == False:
-            return data
-        if preprocess == True:
-            data["text_lemmatized"] = utils.preprocess_(data['text_lemmatized'])
-            return data
+        for word in words:     
+            data['text_lemmatized'] = [t.replace(word,word.replace(' ','_')) for t in data['text_lemmatized']]
+            word_ = word.replace(' ','_')
+            data[word+"_hits"] = [len([w for w in t.split(' ') if w == word_]) for t in data['text_lemmatized']]
+        return data
     
 class frequency():
     def information(data,period_format="month"):

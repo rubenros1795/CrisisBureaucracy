@@ -1,22 +1,20 @@
 # Observation Notes 
 
-- period 1957-1970: "bureaucracy gone mad" popular idiom, relative decline of this idiom after.
-- lots of discussion on local government
-- "Bennery" as bureaucracy
-
 ## Parliamentary Arguments (from annotated set)
-- Labour shares basic problem: it may be that there be some unsuspecting people who think that the Tories be good for knock Whitehall in the eye and down with bureaucracy and all that sort of thing , but it would have be well have the Government introduce a hold operation instead of try to legislate for the next Parliament at this late hour of this Parliament
-- concious discussion of the term: before I come here I use to teach politic and administration , and I recall that a number of writer discuss the question of the meaning of the word bureaucracy .it sometimes have a slightly unpleasant meaning if regard as different from administration pure and simple .in what do this difference lie ?I have be interested in this case , because I find that it offer two definition at this kind of bureaucracy .one be that where a conflict of evidence arise between an official and a citizen on a point in respect of which the citizen can lose or be penalise , whose word be take ?if the word of the official be accept , that be bureaucracy .the citizen 's word should be prefer even when both party be honourable and above reproach in their general conduct .the second definition be where the policy of the Government be to act be one way — in this case to hasten production — and the action of the Department or of the official be the reverse of that ."""
-- the hon .member be one of the good example of those who make these usual cheap comment about bureaucracy .
-- """in recent year we have hear from our constituent , the newspaper and the television about the grow threat of bureaucracy .as Members of Parliament we have to see middle - grade and senior civil servant and chief officer of town hall .those be the people the press and television refer to as the faceless bureaucrat .when we in turn visit they we discover that their facility be far superior to our own .it ill behove we to cavil and complain about bureaucrat and civil servant if we do not have the courage to ask for similar facility to do our job .that be the challenge ."""
+- Labour shares basic problem: 
+		
+		it may be that there be some unsuspecting people who think that the Tories be good for knock Whitehall in the eye and down with bureaucracy and all that sort of thing , but it would have be well have the Government introduce a hold operation instead of try to legislate for the next Parliament at this late hour of this Parliament
+- concious discussion of the term: 
+
+		uk.proc.d.1973-06-25.11.1.64.3	in recent years we have heard from our constituents the newspapers and the television about the growing threat of bureaucracy as members of parliament we have to see middlegrade and senior civil servants and chief officers of town halls those are the people the press and television refer to as the faceless bureaucrats when we in turn visit them we discover that their facilities are far superior to our own it ill behoves us to cavil and complain about bureaucrats and civil servants if we do not have the courage to ask for similar facilities to do our job that is the challenge	uk.proc.d.1973-06-25.11	PARLIAMENTARY BUILDING	na	na	uk.proc.d.1973-06-25.11.1.64	uk.m.22235	Mr. William Molloy	Labour	591
+
+	
+- in recent year we have hear from our constituent , the newspaper and the television about the grow threat of bureaucracy .as Members of Parliament we have to see middle - grade and senior civil servant and chief officer of town hall .those be the people the press and television refer to as the faceless bureaucrat .when we in turn visit they we discover that their facility be far superior to our own .it ill behove we to cavil and complain about bureaucrat and civil servant if we do not have the courage to ask for similar facility to do our job .that be the challenge .
 - which do my right hon .friend think more important to the people of Inverness — a monster plesiosaur in Loch Ness or a monster bureaucracy in Edinburgh
 -the Civil Service have achieve the truly remarkable feat of increase the size of the bureaucracy to service the computer , rather than the computer serve to make the bureaucracy more efficient 
 - it be quite obvious that the growth of bureaucracy have go on throughout the age .I merely want to point out that I do not like the constant emotive use of the term .
 
-## External Sources
-- Jon Rex, Labour Bureaucracy, New Reasoner, 1958, no. 6:  In current left-wing parlance it has become the key excuse-word for explaining how Russia got Stalinized. The bureaucrats there are thought of as a class which develops its own special privileges arising from its peculiar relationship to the means of production, and which devotes most of its energies to defending these privileges rather than to the furtherance of the purposes of socialism. Some anti-Stalinists even go further and suggest that Russian bureaucrats constitute an exploiting class in the same way as capitalists had done previously.
-
-## Specific Speakers
+## Specific Speakers - "Bureaucracy"
 
 **Gerald Kaufman (runner up most frequent user in 1972)
 
@@ -28,7 +26,7 @@ Kaufman denounced socialism, if it meant to be synonymous with bureaucracy. Argu
 
 Brynmor John, Labour MP for Pontypridd, argued in 1973 that:
 
-	We have seen that in field after field their instinct has been to transfer powers from Parliament to a bureaucracy. This is a further example of that propensity. But no matter; we shall take away this sort of arrangement from the bureaucratic organisation and place it in the hands of democratic bodies
+	We have seen that in field after field their instinct has been to **transfer powers from Parliament to a bureaucracy**. This is a further example of that propensity. But no matter; we shall take away this sort of arrangement from the bureaucratic organisation and place it in the hands of democratic bodies
 	
 **Roy Hughes (runner up 1975**
 
@@ -77,7 +75,6 @@ Heffer demonstrates how the rising waters frame had become shared across politic
 	The hon. Gentleman has raised a case that illustrates the difficulty in any modern complex society of any democratic body exercising detailed control over a bureaucracy. Bureaucracy is not necessarily a bad thing, but there is difficulty in controlling detailed Government expenditure. However, I must repeat that at the end of the day Parliament has the authority and the power to control Government expenditure. It can deny the Government money, and if that happens to any Government they must hand over to somebody else.
 
 **General**
-In the Opposition years for Labour (1970-4) it appears that great emphasis was laid on the democratic accountability of bureaucracy. Reinforced by the EEC membership debate and the continuous debates on devolution, Labour MPs argued that "There is a great danger that Britain will be subject to decisions of a bureaucracy without adequate parliamentary scrutiny or check." (Thomas Peart, 1972)
 
 The early 1970s also saw the appearance of theoretic perspectives upon bureaucracy that slowly found their way into public debate. Most well-known is William A. Niskanen's _Bureaucracy and Representative Government_ (1971), the widely influential work that laid the foundations for the New Right theory of an ever-expanding bureaucracy: the academic face of the "rising waters". Niskanen drew on earlier works by Von Mises (_Bureaucracy_, 1944) and Anthony Down (_Inside Bureaucracy_, 1967) (Hindwood, 2006; 130-140).
 
@@ -96,3 +93,12 @@ Quango:
 - waste and inefficiency as focal points, enabling alignment with previous Labour ideas
 
 The convergence in the arguments on bureaucracy and the narrative of the rising waters is showcased by the introduction of a new term in political discourse in the late 1970s. 
+
+Mr. English || Labour || 1979-01-15
+
+	"The history of this is interesting. The words ""civil servant"" were actually coined not for servants of the Crown but for members of a quango. These were the civil, as distinct from the military or naval, servants of the East India Company. I cannot resist quoting something that was said in this House about the earliest civil servants. The quote goes: Animated with all the avarice of age and all the impetuosity of youth, they roll in one after another, wave after wave. There is nothing before the eyes of the natives but an endless, hopeless prospect of new flights of birds of prey and passage with appetites continually renewing for a food that is continually wasting. It goes on to say: Their prey is lodged in England. That description came from Edmund Burke in making the point that unless we took steps to control at least one civil service we might lose India in the same way that we had just lost America."
+	
+	
+Graphs form filling etc
+- conservatives mention paperwork often, increased with Labour during 1968-1972
+- paperwork two peaks at conservatives

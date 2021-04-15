@@ -1,0 +1,3 @@
+- Jon Rex, Labour Bureaucracy, New Reasoner, 1958, no. 6:  
+
+In current left-wing parlance it has become the key excuse-word for explaining how Russia got Stalinized. The bureaucrats there are thought of as a class which develops its own special privileges arising from its peculiar relationship to the means of production, and which devotes most of its energies to defending these privileges rather than to the furtherance of the purposes of socialism. Some anti-Stalinists even go further and suggest that Russian bureaucrats constitute an exploiting class in the same way as capitalists had done previously.

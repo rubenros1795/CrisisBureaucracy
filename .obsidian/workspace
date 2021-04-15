@@ -4,13 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "222a1f166ab4d3a2",
+        "id": "0ac4f48cc1d4107b",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "image",
           "state": {
-            "file": "notes/ideas/8.4.21-QuangoConvergence.md",
-            "mode": "source"
+            "file": "results/clustered-adjectives-k13-w231.png"
           }
         }
       }
@@ -52,7 +51,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 398
   },
   "right": {
     "id": "506dc145db18faf1",
@@ -68,7 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/ideas/8.4.21-QuangoConvergence.md",
+                "file": "results/clustered-adjectives-k13-w231.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +85,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "222a1f166ab4d3a2",
+  "active": "0ac4f48cc1d4107b",
   "lastOpenFiles": [
-    "notes/ideas/Untitled.md",
+    "results/clustered-adjectives-k13-w231.png",
     "notes/analysis/observation-notes.md",
-    "notes/ideas/8.4.21-Butskellism.md",
-    "notes/ideas/7.4.21-DiscursiveFunctionOverload.md",
-    "notes/literature/Castellani-RiseManagerialBureaucracy.md",
-    "notes/literature/Cooper-BureaucraticTurnover-2020.md",
-    "notes/literature/Untitled.md",
-    "notes/literature/Callaghan-FabianSocialismDemocracyState-1989.md",
-    "notes/literature/Middleton-BrittanOnBritain-2011.md",
-    "notes/literature/Blick-WilsonLabourMachinery-2006.md"
+    "notes/ideas/15.4.21-QuangoAppearance.md",
+    "notes/ideas/Untitled.md",
+    "notes/ideas/15.4.21-Early1970sIntellectualLandscape.md",
+    "notes/ideas/8.4.21-QuangoConvergence.md",
+    "notes/ideas/15.4.21-CauseForDistraction7074.md",
+    "notes/ideas/15.4.21-CauseForDistraction.md",
+    "notes/literature/Rex-LabourBureaucracy-1958.md",
+    "notes/literature/Untitled.md"
   ]
 }
