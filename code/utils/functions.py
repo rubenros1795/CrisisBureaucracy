@@ -361,7 +361,7 @@ class tfidf():
             df_class = data[(data[category_column] == cat)]
             df_docs_terms_class = docterms.iloc[df_class.index]
             # sum by columns and get the top n keywords
-            dfop = df_docs_terms_class.sum(axis=0).nlargest(n=50)
+            dfop = df_docs_terms_class.sum(axis=0).nlargest(n=100)
             dfop = pd.DataFrame(dfop).reset_index()
             dfop.columns = [cat + " terms",cat + " score"]
             dfop[cat + " score"] = [round(x,2) for x in dfop[cat + " score"]]
