@@ -325,8 +325,8 @@ class embeddings():
 class plotting():
 
     def style(var_length):
-        sns.set(font='Inter, Medium',rc={'axes.axisbelow': True,'axes.edgecolor': 'lightgrey','axes.facecolor': 'None', 'axes.grid': True,'grid.color':'whitesmoke','axes.labelcolor':'dimgrey','axes.spines.top': True,'figure.facecolor': 'white','lines.solid_capstyle': 'round','patch.edgecolor': 'w','patch.force_edgecolor': True,'text.color': 'dimgrey','xtick.bottom': False,'xtick.color': 'dimgrey','xtick.direction': 'out','xtick.top': False,'ytick.color': 'dimgrey','ytick.direction': 'out','ytick.left': False, 'ytick.right': False})
-        sns.set_context("notebook", rc={"font.size":16,"axes.titlesize":20, "axes.labelsize":16})
+        sns.set(font='CMU Serif, Bold',rc={'axes.axisbelow': True,'axes.edgecolor': 'lightgrey','axes.facecolor': 'None', 'axes.grid': True,'grid.color':'whitesmoke','axes.labelcolor':'black','axes.spines.top': True,'figure.facecolor': 'white','lines.solid_capstyle': 'round','patch.edgecolor': 'w','patch.force_edgecolor': True,'text.color': 'black','xtick.bottom': False,'xtick.color': 'black','xtick.direction': 'out','xtick.top': False,'ytick.color': 'black','ytick.direction': 'out','ytick.left': False, 'ytick.right': False})
+        sns.set_context("notebook", rc={"font.size":20,"axes.titlesize":26, "axes.labelsize":20})
         sns.set_palette("Accent",var_length)
         
 class DenseTfIdf(TfidfVectorizer):
@@ -350,7 +350,7 @@ class tfidf():
 
     def get_docterms(data,text_column,**kwargs):
         texts = list(data[text_column])
-        return DenseTfIdf(sublinear_tf=True, max_df=0.5,min_df=2,encoding='ascii',lowercase=True,stop_words='english',**kwargs).fit_transform(texts)
+        return DenseTfIdf(sublinear_tf=True, max_df=0.5,min_df=0.052,encoding='ascii',lowercase=True,stop_words='english',**kwargs).fit_transform(texts)
 
     def get_topterms(tfidf_object,docterms,data,category_column):
         docterms = pd.DataFrame(docterms.toarray(), columns=tfidf_object.get_feature_names(),index=data.index)

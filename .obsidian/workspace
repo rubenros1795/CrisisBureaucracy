@@ -4,12 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "b83922f3df28c21b",
+        "id": "dd1d8e58f1adb553",
         "type": "leaf",
         "state": {
-          "type": "image",
+          "type": "markdown",
           "state": {
-            "file": "results/plots/semanticfield-bureaucracy-1976_1979.png"
+            "file": "notes/ideas/29.4.21-Late1970sLabourAlignment.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "ae285c36f38f0ac1",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "notes/literature/TheAdministrators-1964.md",
+            "mode": "source"
           }
         }
       }
@@ -21,17 +33,10 @@
     "type": "split",
     "children": [
       {
-        "id": "397ff794af6fbe62",
+        "id": "4d34efcc2b952cec",
         "type": "tabs",
+        "dimension": 29.310344827586206,
         "children": [
-          {
-            "id": "45bfa4b0d4db66af",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
           {
             "id": "89cbbbceb24f2a80",
             "type": "leaf",
@@ -48,10 +53,25 @@
             }
           }
         ]
+      },
+      {
+        "id": "397ff794af6fbe62",
+        "type": "tabs",
+        "dimension": 70.6896551724138,
+        "children": [
+          {
+            "id": "45bfa4b0d4db66af",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 297
+    "width": 319
   },
   "right": {
     "id": "506dc145db18faf1",
@@ -67,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "results/plots/semanticfield-bureaucracy-1976_1979.png",
+                "file": "notes/ideas/29.4.21-Late1970sLabourAlignment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,17 +105,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b83922f3df28c21b",
+  "active": "dd1d8e58f1adb553",
   "lastOpenFiles": [
-    "results/plots/semanticfield-bureaucracy-1976_1979.png",
-    "results/plots/semanticfield-bureaucracy-1958_1961.png",
-    "notes/analysis/observation-notes.md",
-    "notes/literature/Castellani-RiseManagerialBureaucracy.md",
-    "notes/literature/Theakston-BritishLabourPartyCivilService-2020.md",
-    "notes/ideas/31.12.21-LabourPragmatism.md",
-    "notes/literature/Edgerton-CPSnowTechnocraticMoment-2003.md",
-    "notes/literature/Eley-HistoryLeft-2002.md",
+    "notes/ideas/29.4.21-Late1970sLabourAlignment.md",
+    "notes/ideas/29.4.21-NewRightResponsesLate1970s.md",
+    "notes/ideas/29.4.21-Late1970sEschatologicalPolitics.md",
+    "notes/ideas/28.4.21-Participation.md",
+    "notes/literature/Crosland-SocialistsDangerousWorld-1968.md",
+    "notes/literature/Crossman-SocialismDespotism-1956.md",
     "notes/literature/Favretto-WilsonismReconsidered-2000.md",
-    "notes/ideas/31.12.21-BureaucracyPrivateSector.md"
+    "notes/literature/Blick-WilsonLabourMachinery-2006.md",
+    "results/plots/semanticfield-bureaucracy-1964_1967.png",
+    "results/plots/freq-bureaucracy-annotated-line-party.png"
   ]
 }
