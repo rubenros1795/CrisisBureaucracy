@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "notes/ideas/29.4.21-Late1970sLabourAlignment.md",
+            "file": "notes/literature/King-Overload-1975.md",
             "mode": "source"
           }
         }
@@ -35,7 +35,7 @@
       {
         "id": "4d34efcc2b952cec",
         "type": "tabs",
-        "dimension": 29.310344827586206,
+        "dimension": 76.0204081632653,
         "children": [
           {
             "id": "89cbbbceb24f2a80",
@@ -43,7 +43,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "keynes",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +57,7 @@
       {
         "id": "397ff794af6fbe62",
         "type": "tabs",
-        "dimension": 70.6896551724138,
+        "dimension": 23.97959183673469,
         "children": [
           {
             "id": "45bfa4b0d4db66af",
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/ideas/29.4.21-Late1970sLabourAlignment.md",
+                "file": "notes/literature/King-Overload-1975.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,15 +107,15 @@
   },
   "active": "dd1d8e58f1adb553",
   "lastOpenFiles": [
+    "notes/literature/King-Overload-1975.md",
     "notes/ideas/29.4.21-Late1970sLabourAlignment.md",
+    "notes/literature/Gray-ConservativeOpportunity-1976.md",
+    "notes/ideas/31.12.21-LabourPragmatism.md",
+    "notes/literature/TheAdministrators-1964.md",
     "notes/ideas/29.4.21-NewRightResponsesLate1970s.md",
     "notes/ideas/29.4.21-Late1970sEschatologicalPolitics.md",
     "notes/ideas/28.4.21-Participation.md",
     "notes/literature/Crosland-SocialistsDangerousWorld-1968.md",
-    "notes/literature/Crossman-SocialismDespotism-1956.md",
-    "notes/literature/Favretto-WilsonismReconsidered-2000.md",
-    "notes/literature/Blick-WilsonLabourMachinery-2006.md",
-    "results/plots/semanticfield-bureaucracy-1964_1967.png",
-    "results/plots/freq-bureaucracy-annotated-line-party.png"
+    "notes/literature/Crossman-SocialismDespotism-1956.md"
   ]
 }

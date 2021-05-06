@@ -324,10 +324,10 @@ class embeddings():
 
 class plotting():
 
-    def style(var_length):
-        sns.set(font='CMU Serif, Bold',rc={'axes.axisbelow': True,'axes.edgecolor': 'lightgrey','axes.facecolor': 'None', 'axes.grid': True,'grid.color':'whitesmoke','axes.labelcolor':'black','axes.spines.top': True,'figure.facecolor': 'white','lines.solid_capstyle': 'round','patch.edgecolor': 'w','patch.force_edgecolor': True,'text.color': 'black','xtick.bottom': False,'xtick.color': 'black','xtick.direction': 'out','xtick.top': False,'ytick.color': 'black','ytick.direction': 'out','ytick.left': False, 'ytick.right': False})
+    def style(vl=12,pal='Paired',font='CMU Serif,Bold'):
+        sns.set(font=font,rc={'axes.axisbelow': True,'axes.edgecolor': 'lightgrey','axes.facecolor': 'None', 'axes.grid': True,'grid.color':'whitesmoke','axes.labelcolor':'black','axes.spines.top': True,'figure.facecolor': 'white','lines.solid_capstyle': 'round','patch.edgecolor': 'w','patch.force_edgecolor': True,'text.color': 'black','xtick.bottom': False,'xtick.color': 'black','xtick.direction': 'out','xtick.top': False,'ytick.color': 'black','ytick.direction': 'out','ytick.left': False, 'ytick.right': False})
         sns.set_context("notebook", rc={"font.size":20,"axes.titlesize":26, "axes.labelsize":20})
-        sns.set_palette("Accent",var_length)
+        sns.set_palette(pal,vl)
         
 class DenseTfIdf(TfidfVectorizer):
 
